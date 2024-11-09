@@ -1,4 +1,4 @@
-pipeline {
+/*pipeline {
     agent any
 
     stages {
@@ -19,8 +19,9 @@ pipeline {
                 stage('Exec') {
                     steps{
                        // sh 'mvn exec:java'
-                       sh 'mvn spring-boot:run -0spring-boot.run.arguments=' --server.port=8081
+                       sh 'mvn spring-boot:run -0spring-boot.run.arguments=' --server.port=8081'
                     }
                 }
             }
         }
+        */
